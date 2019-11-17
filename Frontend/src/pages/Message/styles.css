@@ -1,0 +1,67 @@
+.container{
+    flex: 1;
+    background-color: azure;
+}
+
+.messageSend{
+    color: white;
+    font-size: 2em;
+    margin-left: .5em;
+}
+
+.header{
+    background-color: navy;
+    height: 3em;
+    padding-top: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.messages{
+    flex:1;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
+.sendItem{
+    justify-content: flex-end;
+    display: flex;
+}
+
+.messageItem{
+    flex-direction: column;
+    width: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin: 10px;
+    padding: 5px;
+}
+
+.sendInput{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    margin: 1em;
+}
+
+.receiverItem{
+    justify-content: flex-start; 
+    display: flex;
+}
+
+.input{
+    width: 80%;
+    margin-right: 1em;
+}
+
+.messageLabel{
+    font-size: 1.3em;
+    margin: 1em;
+}
+
+.receiver {
+    
+}

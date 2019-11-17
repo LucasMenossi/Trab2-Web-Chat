@@ -4,7 +4,8 @@
   "description": "",
   "main": "appMongoose.js",
   "scripts": {
-    "start": "node appMongoose.js"
+    "start": "node appMongoose.js",
+    "heroku-postbuild": "cd Trab-2-Frontend && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
